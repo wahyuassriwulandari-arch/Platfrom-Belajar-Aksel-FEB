@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --font-heading: 'Poppins', sans-serif;
+  --font-body: 'Open Sans', sans-serif;
+  --font-sans: 'Open Sans', sans-serif;
+}
+
+html, body {
+  height: 100vh;
+  max-height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #1e293b;
+  background-color: #f8fafc;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  height: 100vh;
+  max-height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, .font-heading {
+  font-family: 'Poppins', sans-serif;
+}
+
+.max-prose-ch {
+  max-width: 70ch;
+  line-height: 1.6;
+}

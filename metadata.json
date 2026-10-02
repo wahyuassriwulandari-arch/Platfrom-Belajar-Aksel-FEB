@@ -1,0 +1,8 @@
+{
+  "name": "Remix Aksel FEB",
+  "description": "Platform belajar yang menghubungkan mahasiswa baru dengan mentor dan tutor dalam perguruan tinggi FEB.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
